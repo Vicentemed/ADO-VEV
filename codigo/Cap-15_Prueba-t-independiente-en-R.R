@@ -1,6 +1,6 @@
 ## -----------------------------------------------------------------------------
 #| label: carga-vickers-12
-dat <- read.table("Examples/VickersF.txt", header = TRUE, sep = "\t",
+dat <- read.table("sets de datos/VickersF.txt", header = TRUE, sep = "\t",
                   na.strings = "NA", dec = ".", strip.white = TRUE)
 dat <- subset(dat, Cure.time == "Dual")
 dat$Group <- factor(dat$Group)

@@ -1,6 +1,6 @@
 ## -----------------------------------------------------------------------------
 #| label: carga-carbuse
-dat <- read.table("Examples/Carbuse.txt", header = TRUE, sep = "\t",
+dat <- read.table("sets de datos/Carbuse.txt", header = TRUE, sep = "\t",
                   na.strings = "NA", dec = ".", strip.white = TRUE)
 dat$Groups <- factor(dat$Groups, levels = c("0_uses","1_use"))
 str(dat)

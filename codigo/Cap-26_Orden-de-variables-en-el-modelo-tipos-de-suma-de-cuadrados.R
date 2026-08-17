@@ -15,7 +15,7 @@ anova(lm(Y ~ B + A, data = dat_ex))   # B primero
 #| message: false
 library(car)
 
-dat_vickers <- read.table("Examples/VickersF.txt", header = TRUE, sep = "\t",
+dat_vickers <- read.table("sets de datos/VickersF.txt", header = TRUE, sep = "\t",
                           na.strings = "NA", dec = ".", strip.white = TRUE)
 dat_vickers$Group     <- factor(dat_vickers$Group)
 dat_vickers$Cure.time <- factor(dat_vickers$Cure.time,

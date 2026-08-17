@@ -3,7 +3,7 @@
 #| message: false
 library(dplyr); library(reshape2); library(ggplot2)
 
-dat <- read.table("Examples/DXKTw.txt", header = TRUE, sep = "\t",
+dat <- read.table("sets de datos/DXKTw.txt", header = TRUE, sep = "\t",
                   na.strings = "NA", dec = ".", strip.white = TRUE)
 
 dat$Grupo <- as.factor(dat$Grupo)
@@ -169,7 +169,7 @@ ggplot(G1_long, aes(x = Times, y = Response)) +
 #| message: false
 library(drc)
 
-viab <- read.table("Examples/viabSBF.txt", header = TRUE, sep = "\t",
+viab <- read.table("sets de datos/viabSBF.txt", header = TRUE, sep = "\t",
                    na.strings = "NA", dec = ".", strip.white = TRUE)
 viab$Group <- as.factor(viab$Group)
 str(viab)

@@ -3,7 +3,7 @@
 #| message: false
 library(irr)
 
-dat <- read.table("Examples/PGMax.txt", header = TRUE, sep = "\t",
+dat <- read.table("sets de datos/PGMax.txt", header = TRUE, sep = "\t",
                   na.strings = "NA", dec = ".", strip.white = TRUE)
 str(dat)
 head(dat)

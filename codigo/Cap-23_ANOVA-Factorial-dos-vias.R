@@ -44,7 +44,7 @@ arrows(7.15, 2.4, 8.30, 1.9, lwd = 1.5, length = 0.1)  # SSM → SSAxB
 
 ## -----------------------------------------------------------------------------
 #| label: carga-twoway
-dat <- read.table("Examples/VickersF.txt", header = TRUE, sep = "\t",
+dat <- read.table("sets de datos/VickersF.txt", header = TRUE, sep = "\t",
                   na.strings = "NA", dec = ".", strip.white = TRUE)
 
 dat$Group     <- factor(dat$Group)

@@ -2,7 +2,7 @@
 #| label: carga-wilcoxon28
 library(ggplot2); library(dplyr); library(car)
 
-dat <- read.table("Examples/AUCFil.txt", header = TRUE, sep = "\t",
+dat <- read.table("sets de datos/AUCFil.txt", header = TRUE, sep = "\t",
                   na.strings = "NA", dec = ".", strip.white = TRUE)
 dat$Group <- factor(dat$Group)
 head(dat)

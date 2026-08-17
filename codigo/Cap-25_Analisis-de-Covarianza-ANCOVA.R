@@ -33,7 +33,7 @@ par(mfrow = c(1, 1))
 
 ## -----------------------------------------------------------------------------
 #| label: carga-ancova
-dat <- read.table("Examples/datBF.txt", header = TRUE, sep = "\t",
+dat <- read.table("sets de datos/datBF.txt", header = TRUE, sep = "\t",
                   na.strings = "NA", dec = ".", strip.white = TRUE)
 str(dat)
 

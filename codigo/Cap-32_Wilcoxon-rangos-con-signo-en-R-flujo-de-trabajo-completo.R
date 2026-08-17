@@ -3,7 +3,7 @@
 #| message: false
 library(dplyr); library(reshape2); library(ggplot2); library(car)
 
-dat <- read.table("Examples/DXKTw.txt", header = TRUE, sep = "\t",
+dat <- read.table("sets de datos/DXKTw.txt", header = TRUE, sep = "\t",
                   na.strings = "NA", dec = ".", strip.white = TRUE)
 dat$Grupo <- as.factor(dat$Grupo)
 G2 <- subset(dat, Grupo == "2") %>%

@@ -3,7 +3,7 @@
 #| message: false
 library(survival); library(survminer); library(dplyr)
 
-dat <- read.table("Examples/CRIT1.txt", header = TRUE, sep = "\t",
+dat <- read.table("sets de datos/CRIT1.txt", header = TRUE, sep = "\t",
                   na.strings = "NA", dec = ".", strip.white = TRUE)
 
 # status: 0 = sin evento, 1 = evento (fractura, desalojo, perforación o pérdida)

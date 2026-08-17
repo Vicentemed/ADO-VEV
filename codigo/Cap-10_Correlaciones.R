@@ -74,7 +74,7 @@ with(Pat, cor.test(Edad, Consumo_AINEs,
 
 ## -----------------------------------------------------------------------------
 #| label: imc-tqx
-dat_dx <- read.table("Examples/DXKTw.txt", header = TRUE, sep = "\t",
+dat_dx <- read.table("sets de datos/DXKTw.txt", header = TRUE, sep = "\t",
                       na.strings = "NA", dec = ".", strip.white = TRUE)
 str(dat_dx)
 
@@ -121,7 +121,7 @@ ggplot(dat_dx, aes(Imc, Tqx)) +
 
 ## -----------------------------------------------------------------------------
 #| label: carga-cron
-dat_cron <- read.table("Examples/datcron.txt", header = TRUE, sep = "\t",
+dat_cron <- read.table("sets de datos/datcron.txt", header = TRUE, sep = "\t",
                        na.strings = "NA", dec = ".", strip.white = TRUE)
 head(dat_cron)
 

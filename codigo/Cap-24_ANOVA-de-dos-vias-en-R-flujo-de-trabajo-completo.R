@@ -2,7 +2,7 @@
 #| label: prep-twoway22
 library(car); library(ggplot2); library(dplyr)
 
-dat <- read.table("Examples/VickersF.txt", header = TRUE, sep = "\t",
+dat <- read.table("sets de datos/VickersF.txt", header = TRUE, sep = "\t",
                   na.strings = "NA", dec = ".", strip.white = TRUE)
 
 dat$Group     <- factor(dat$Group)

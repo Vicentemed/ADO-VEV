@@ -1,6 +1,6 @@
 ## -----------------------------------------------------------------------------
 #| label: carga-aucfil
-dat_auc <- read.table("Examples/AUCFil.txt", header = TRUE, sep = "\t",
+dat_auc <- read.table("sets de datos/AUCFil.txt", header = TRUE, sep = "\t",
                       na.strings = "NA", dec = ".", strip.white = TRUE)
 dat_auc$Group <- factor(dat_auc$Group)
 str(dat_auc)

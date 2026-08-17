@@ -2,7 +2,7 @@
 #| label: carga-musict
 library(gmodels)
 
-dat <- read.table("Examples/datMusicT.txt", header = TRUE, sep = "\t",
+dat <- read.table("sets de datos/datMusicT.txt", header = TRUE, sep = "\t",
                   na.strings = "NA", dec = ".", strip.white = TRUE)
 dat$Behavior <- as.factor(dat$Behavior)
 dat$Group    <- factor(dat$Group, levels = c("Music","Control"))

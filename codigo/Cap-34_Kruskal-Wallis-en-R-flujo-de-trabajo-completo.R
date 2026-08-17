@@ -2,7 +2,7 @@
 #| label: carga-kw32
 library(ggplot2); library(dplyr); library(car)
 
-dat <- read.table("Examples/ReMat.txt", header = TRUE, sep = "\t",
+dat <- read.table("sets de datos/ReMat.txt", header = TRUE, sep = "\t",
                   na.strings = "NA", dec = ".", strip.white = TRUE)
 dat$Groups <- factor(dat$Groups)
 str(dat)

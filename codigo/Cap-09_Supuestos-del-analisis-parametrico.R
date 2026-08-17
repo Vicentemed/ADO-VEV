@@ -1,6 +1,6 @@
 ## -----------------------------------------------------------------------------
 #| label: carga-dxkt
-dat <- read.table("Examples/DXKTw.txt", header = TRUE, sep = "\t",
+dat <- read.table("sets de datos/DXKTw.txt", header = TRUE, sep = "\t",
                   na.strings = "NA", dec = ".", strip.white = TRUE)
 head(dat[, 1:10])
 str(dat[, 1:10])

@@ -3,7 +3,7 @@
 #| message: false
 library(survival); library(survminer); library(car); library(rms)
 
-dat <- read.table("Examples/CRIT1.txt", header = TRUE, sep = "\t",
+dat <- read.table("sets de datos/CRIT1.txt", header = TRUE, sep = "\t",
                   na.strings = "NA", dec = ".", strip.white = TRUE)
 
 # La variable de estatus debe ser un entero (1 = evento, 0 = censura)

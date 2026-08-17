@@ -2,7 +2,7 @@
 #| label: carga-asthma
 library(ggplot2)
 
-dat <- read.table("Examples/datAsthma.txt", header = TRUE, sep = "\t",
+dat <- read.table("sets de datos/datAsthma.txt", header = TRUE, sep = "\t",
                   na.strings = "NA", dec = ".", strip.white = TRUE)
 str(dat)
 

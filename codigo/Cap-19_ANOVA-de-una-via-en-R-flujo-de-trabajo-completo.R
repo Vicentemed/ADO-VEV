@@ -1,6 +1,6 @@
 ## -----------------------------------------------------------------------------
 #| label: carga-anova17
-dat <- read.table("Examples/VickersF.txt", header = TRUE, sep = "\t",
+dat <- read.table("sets de datos/VickersF.txt", header = TRUE, sep = "\t",
                   na.strings = "NA", dec = ".", strip.white = TRUE)
 
 ML <- subset(dat, Group == "Multilink")

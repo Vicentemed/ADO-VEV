@@ -82,7 +82,7 @@ legend("bottomright",
 ## -----------------------------------------------------------------------------
 #| label: power-posthoc-anova
 # F de Cohen del estudio de Vickers (ML)
-dat <- read.table("Examples/VickersF.txt", header = TRUE, sep = "\t",
+dat <- read.table("sets de datos/VickersF.txt", header = TRUE, sep = "\t",
                   na.strings = "NA", dec = ".", strip.white = TRUE)
 ML <- subset(dat, Group == "Multilink")
 ML$Cure.time <- factor(ML$Cure.time, levels = c("Control","Dual","Light(20s)"))

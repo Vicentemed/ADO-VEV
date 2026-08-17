@@ -2,7 +2,7 @@
 #| label: carga-ancova25
 library(car); library(ggplot2); library(dplyr)
 
-dat <- read.table("Examples/datBF.txt", header = TRUE, sep = "\t",
+dat <- read.table("sets de datos/datBF.txt", header = TRUE, sep = "\t",
                   na.strings = "NA", dec = ".", strip.white = TRUE)
 
 # Establecer G2 como grupo control (referencia)

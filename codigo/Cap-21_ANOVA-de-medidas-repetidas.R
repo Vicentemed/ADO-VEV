@@ -44,7 +44,7 @@ par(mfrow=c(1,1))
 library(dplyr)
 library(reshape2)
 
-dat <- read.table("Examples/DXKTw.txt", header = TRUE, sep = "\t",
+dat <- read.table("sets de datos/DXKTw.txt", header = TRUE, sep = "\t",
                   na.strings = "NA", dec = ".", strip.white = TRUE)
 
 dat <- within(dat, {Grupo <- as.factor(Grupo)})

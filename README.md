@@ -13,7 +13,7 @@ Esta carpeta reúne **todo el código** y **todos los sets de datos** empleados 
 ## Cómo usarlo
 
 1. Abrir el proyecto **`codigo-y-datos.Rproj`** en RStudio. Al abrirlo, el directorio de trabajo queda fijado en esta carpeta.
-2. Abrir el archivo `.R` del capítulo deseado (dentro de `codigo/`) y ejecutarlo. Las instrucciones `read.table("Examples/...")` encontrarán los datos automáticamente.
+2. Abrir el archivo `.R` del capítulo deseado (dentro de `codigo/`) y ejecutarlo. Las instrucciones `read.table("sets de datos/...")` encontrarán los datos automáticamente.
 3. Algunos ejemplos emplean conjuntos de datos incluidos en paquetes de R (`birthwt` del paquete **MASS** y `anxiety` del paquete **irr**), que no requieren un archivo externo.
 
 ## Requisitos

@@ -2,7 +2,7 @@
 #| label: dat-perio
 library(gmodels)
 
-dat <- read.table("Examples/datPerio.txt", header = TRUE, sep = "\t",
+dat <- read.table("sets de datos/datPerio.txt", header = TRUE, sep = "\t",
                   na.strings = "NA", dec = ".", strip.white = TRUE)
 
 dat$Perio_Dx <- factor(dat$Perio_Dx,
