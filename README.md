@@ -1,4 +1,4 @@
-# Código y sets de datos — *Ciencia de Datos en Odontología*
+# Código y sets de datos — *Análisis de Datos en Odontología*
 
 Material complementario del libro **_Ciencia de Datos en Odontología. Un enfoque pragmático con R_** (Vicente Esparza Villalpando, Universidad Autónoma de Aguascalientes).
 
