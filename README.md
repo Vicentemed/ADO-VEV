@@ -1,6 +1,6 @@
 # Código y sets de datos — *Análisis de Datos en Odontología*
 
-Material complementario del libro **Análisis de Datos en Odontología. Un enfoque pragmático con R_** (Vicente Esparza Villalpando, Universidad Autónoma de Aguascalientes).
+Material complementario del libro **Análisis de Datos en Odontología. Un enfoque pragmático con R** (Vicente Esparza Villalpando, Universidad Autónoma de Aguascalientes).
 
 Esta carpeta reúne **todo el código** y **todos los sets de datos** empleados en el libro, para que el lector pueda reproducir cualquier análisis en su propio equipo.
 
